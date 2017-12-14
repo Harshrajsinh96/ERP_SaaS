@@ -1,0 +1,58 @@
+body {
+	margin: 0 auto;
+	background-image: url(Car.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 800px;
+}
+.box {
+	width: 400px;
+	height: 230px;
+	text-align: center;
+	background-color: rgba(52,73,94,0.7);
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+.box img {
+
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+	border-radius: 50%;
+}
+input[type="text"]
+{
+	height: 40px;
+	width: 370px;
+	font-size: 18px;
+    border: none;
+	margin-bottom: 20px;
+	border-radius: 7px;
+	background-color: #fff;
+	padding-left: 40px;
+}
+.form-input::before {
+	content: "\f007";
+	position: absolute;
+	font-family: "FontAwesome";
+	padding-left: 5px;
+	color: #9B59B6
+	padding-top: 5px;
+	font-size: 35px;
+}
+.form-input:nth-child(2)::before {
+	content: "\f023";
+}
+.abc-login {
+	padding: 11px 17px;
+	cursor: pointer;
+	color: #fff;
+	border-radius: 6px;
+	border: none;
+	background-color: #3C8DBC;
+	margin-bottom: 10px;
+}
+a {
+	color: #fff;
+}
